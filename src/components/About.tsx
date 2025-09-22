@@ -27,7 +27,7 @@ const About = () => {
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
             Building the Future of{" "}
-            <span className="text-gradient">Embedded Systems</span>
+            <span className="text-gradient">I'm Moslem Ahmed, a Computer Engineering student at Cairo University with a 3.76 CGPA, I’m learning and applying data analysis and machine learning techniques to real problems.</span>
           </h2>
         </div>
 
