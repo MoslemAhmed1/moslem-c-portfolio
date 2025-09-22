@@ -4,12 +4,12 @@ import { Cpu, Code, Zap, Users } from "lucide-react";
 const About = () => {
   const highlights = [{
     icon: Cpu,
-    title: "Embedded Systems",
-    description: "STM32, ARM Assembly, Real-time Control"
+    title: "Machine Learning",
+    description: "Pandas, NumPy, Matplotlib, Scikit-learn"
   }, {
     icon: Code,
     title: "Systems Programming",
-    description: "C++, Python, Low-level Optimization"
+    description: "C++, Python, SQL, Low-level Optimization"
   }, {
     icon: Zap,
     title: "Performance Focus",
@@ -37,13 +37,12 @@ const About = () => {
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed">
                 I'm <strong className="text-primary">Moslem Ahmed</strong>, a Computer Engineering student at 
-                Cairo University with a <strong className="text-tech">3.76 CGPA</strong>, specializing in 
-                embedded systems and systems-level C++ development.
+                Cairo University with a <strong className="text-tech">3.76 CGPA</strong>, learning data analysis and machine learning.
               </p>
               
-              <p className="text-lg leading-relaxed">I build reproducible, well-documented workflows using Python, Pandas, NumPy, scikit-learn, and clear visualizations to turn messy datasets into actionable insights.</p>
+              <p className="text-xl leading-relaxed">I build reproducible, well-documented workflows using Python, Pandas, NumPy, scikit-learn, and clear visualizations to turn messy datasets into actionable insights.</p>
               
-              <p className="text-lg leading-relaxed">My recent NSL-KDD project, fully documented in a runnable notebook, achieved 99.91% accuracy through careful preprocessing, feature work, and model evaluation. I’m looking for internships or freelance opportunities where I can apply these skills, deliver measurable results, and keep growing as a practitioner.</p>
+              <p className="text-xl leading-relaxed">My recent NSL-KDD project, fully documented in a runnable notebook, achieved 99.91% accuracy through careful preprocessing, feature work, and model evaluation. I’m looking for internships or freelance opportunities where I can apply these skills, deliver measurable results, and keep growing as a practitioner.</p>
             </div>
 
             <div className="flex flex-wrap gap-3">

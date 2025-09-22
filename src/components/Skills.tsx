@@ -85,7 +85,7 @@ const Skills = () => {
             Technical Excellence &{" "}
             <span className="text-gradient">Practical ML Solutions</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Combining strong analytical thinking with hands-on experience in data analysis and machine learning to deliver reliable, reproducible results that support smarter decisions.</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Combining strong analytical skills with a growing foundation in data analysis and machine learning to deliver clear insights, reproducible workflows, and practical solutions to complex problems.</p>
         </div>
 
         <div className="space-y-16">

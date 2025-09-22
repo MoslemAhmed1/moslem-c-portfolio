@@ -57,21 +57,21 @@ const Projects = () => {
       github: "https://github.com/MoslemAhmed1"
     },
     {
-      title: "SnakeMon Game",
-      subtitle: "C++, CMUgraphics, OOP",
-      period: "Dec. 2024 – Jan. 2025",
-      description: "Developed a unique mix of Snakes and Ladders and Monopoly with custom grid design.",
+      title: "NSL-KDD Intrusion Detection",
+      subtitle: "Python, Pandas, Scikit-learn",
+      period: "2025",
+      description: "Applied machine learning techniques on the NSL-KDD dataset to classify network traffic with high accuracy.",
       highlights: [
-        "Implemented dual-mode functionality allowing players to switch between Design and Play modes",
-        "Created interactive grid system where players can design custom layouts with snakes, ladders, and special cards",
-        "Utilized object-oriented programming principles and CMUgraphics for dynamic user experience"
+        "Performed data cleaning, feature engineering, and preprocessing on the NSL-KDD dataset",
+        "Trained and evaluated multiple ML models with cross-validation and hyperparameter tuning",
+        "Achieved a classification performance score of 99.91% on the dataset"
       ],
-      technologies: ["C++", "CMUgraphics", "OOP", "Game Development", "UI Design"],
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "EDA", "ML Models"],
       image: null,
       icon: Zap,
       gradient: "from-tech to-primary",
-      github: "https://github.com/MoslemAhmed1"
-    }
+      github: "https://github.com/MoslemAhmed1"   // Replace with the specific repo/notebook link if available
+}
   ];
 
   const otherProjects = [
@@ -88,6 +88,13 @@ const Projects = () => {
       period: "Dec. 2024 – Jan. 2025",
       description: "Designed and implemented a sequential arithmetic logic unit on FPGA supporting dynamic input with 7-segment displays.",
       technologies: ["FPGA", "Verilog", "Digital Logic", "Circuit Design"]
+    },
+    {
+    title: "SnakeMon Game",
+    subtitle: "C++, CMUgraphics, OOP",
+    period: "Dec. 2024 – Jan. 2025",
+    description: "Developed a unique mix of Snakes and Ladders and Monopoly with a custom interactive grid and dynamic gameplay.",
+    technologies: ["C++", "CMUgraphics", "OOP", "Game Development", "UI Design"]
     }
   ];
 
@@ -99,12 +106,11 @@ const Projects = () => {
             Featured Projects
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
-            Real-World{" "}
-            <span className="text-gradient">Engineering Solutions</span>
+            Practical Projects & Learning Applications
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From embedded gaming consoles to autonomous vehicles—showcasing practical applications 
-            of embedded systems and C++ development
+            From machine learning experiments to algorithm visualizations and interactive software—showcasing hands-on projects that apply 
+            theory to practice and highlight continuous learning.
           </p>
         </div>
 
