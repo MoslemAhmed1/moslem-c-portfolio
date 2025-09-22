@@ -92,29 +92,7 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Profile Image */}
-          <div className="relative">
-            <div className="relative max-w-md mx-auto lg:max-w-lg">
-              {/* Floating Elements */}
-              <div className="absolute -top-6 -left-6 w-24 h-24 bg-tech/20 rounded-2xl animate-float"></div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-cta/20 rounded-2xl animate-float" style={{
-              animationDelay: '2s'
-            }}></div>
-              
-              {/* Main Profile Container */}
-              <div className="relative bg-card rounded-3xl p-8 shadow-elevated border border-tech/10">
-                <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-tech/20 to-cta/20 p-1">
-                  <img src={profileImage} alt="Moslem Ahmed - Embedded Systems Developer" className="w-full h-full object-cover rounded-2xl" />
-                </div>
-                
-                {/* Floating Badge */}
-                <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-                  <Badge className="bg-primary text-primary-foreground px-4 py-2 text-sm font-semibold shadow-lg">
-                    3.76 CGPA • Cairo University
-                  </Badge>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>;
