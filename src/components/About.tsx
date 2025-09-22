@@ -27,7 +27,7 @@ const About = () => {
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
             Building the Future of{" "}
-            <span className="text-gradient">I'm Moslem Ahmed, a Computer Engineering student at Cairo University with a 3.76 CGPA, I’m learning and applying data analysis and machine learning techniques to real problems.</span>
+            <span className="text-gradient">Machine Learning</span>
           </h2>
         </div>
 
@@ -41,14 +41,9 @@ const About = () => {
                 embedded systems and systems-level C++ development.
               </p>
               
-              <p className="text-lg leading-relaxed">I enjoy turning messy data into concise stories, building reproducible notebooks, and developing baseline ML models that are transparent and easy to reproduce.</p>
+              <p className="text-lg leading-relaxed">I build reproducible, well-documented workflows using Python, Pandas, NumPy, scikit-learn, and clear visualizations to turn messy datasets into actionable insights.</p>
               
-              <p className="text-lg leading-relaxed">
-                My passion lies in creating efficient, maintainable code that maximizes performance 
-                on resource-constrained systems. Whether it's implementing real-time control algorithms 
-                or developing interactive gaming systems on embedded hardware, I thrive on challenges 
-                that demand both technical precision and creative problem-solving.
-              </p>
+              <p className="text-lg leading-relaxed">My recent NSL-KDD project, fully documented in a runnable notebook, achieved 99.91% accuracy through careful preprocessing, feature work, and model evaluation. I’m looking for internships or freelance opportunities where I can apply these skills, deliver measurable results, and keep growing as a practitioner.</p>
             </div>
 
             <div className="flex flex-wrap gap-3">
