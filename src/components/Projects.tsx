@@ -5,6 +5,7 @@ import { Github, ExternalLink, Calendar, Cpu, Code, Zap, Bot } from "lucide-reac
 import gameboyImage from "@/assets/project-gameboy.jpg";
 import pathfindingImage from "@/assets/project-pathfinding.jpg";
 import vehicleImage from "@/assets/project-vehicle.jpg";
+import cyberImage from "@/assets/project-kdd.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -67,7 +68,7 @@ const Projects = () => {
         "Achieved a classification performance score of 99.91% on the dataset"
       ],
       technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "EDA", "ML Models"],
-      image: null,
+      image: cyberImage,
       icon: Zap,
       gradient: "from-tech to-primary",
       github: "https://github.com/MoslemAhmed1"   // Replace with the specific repo/notebook link if available
