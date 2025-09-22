@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'inter': ['Inter', 'system-ui', 'sans-serif'],
+        'display': ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -22,6 +26,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -39,13 +45,21 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        tech: {
+          DEFAULT: "hsl(var(--tech-accent))",
+          light: "hsl(var(--tech-accent-light))",
+          dark: "hsl(var(--tech-accent-dark))",
+          foreground: "hsl(var(--tech-accent-foreground))",
+        },
+        cta: {
+          DEFAULT: "hsl(var(--cta))",
+          light: "hsl(var(--cta-light))",
+          dark: "hsl(var(--cta-dark))",
+          foreground: "hsl(var(--cta-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
