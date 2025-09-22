@@ -35,27 +35,6 @@ const Contact = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      quote: "Moslem delivered exceptional embedded firmware that exceeded our performance requirements. His attention to detail in memory optimization was impressive.",
-      author: "Senior Hardware Engineer",
-      company: "Tech Startup",
-      project: "IoT Device Firmware"
-    },
-    {
-      quote: "Working with Moslem on our STM32 project was seamless. He understood our real-time constraints and delivered clean, maintainable code.",
-      author: "Project Manager",
-      company: "Robotics Company",
-      project: "Real-time Control System"
-    },
-    {
-      quote: "His expertise in ARM assembly and C++ optimization helped us achieve 40% better performance on our embedded gaming system.",
-      author: "Lead Developer",
-      company: "Gaming Hardware",
-      project: "Embedded Gaming Console"
-    }
-  ];
-
   return (
     <section id="contact" className="py-24 bg-gradient-to-b from-background to-primary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -65,11 +44,11 @@ const Contact = () => {
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
             Start Your Next{" "}
-            <span className="text-gradient">Embedded Project</span>
+            <span className="text-gradient">Data Project</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to bring your embedded systems vision to life? Let's discuss your project requirements 
-            and create efficient, reliable solutions together.
+            Ready to explore insights from your data? Let's discuss your project requirements
+            and create clean, reproducible solutions together.
           </p>
         </div>
 
@@ -131,45 +110,6 @@ const Contact = () => {
               </div>
             </Card>
           </div>
-
-          {/* Testimonials */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-primary mb-6">Client Testimonials</h3>
-            <div className="space-y-6">
-              {testimonials.map((testimonial, index) => (
-                <Card key={index} className="p-6 shadow-card hover:shadow-elevated transition-smooth">
-                  <div className="space-y-4">
-                    <blockquote className="text-muted-foreground italic leading-relaxed">
-                      "{testimonial.quote}"
-                    </blockquote>
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <p className="font-semibold text-primary">{testimonial.author}</p>
-                        <p className="text-sm text-muted-foreground">{testimonial.company}</p>
-                      </div>
-                      <Badge variant="outline" className="text-xs">
-                        {testimonial.project}
-                      </Badge>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-
-            <Card className="p-6 bg-secondary/50 border-dashed border-2 border-tech/20">
-              <div className="text-center space-y-3">
-                <h4 className="font-semibold text-primary">Your Testimonial Here</h4>
-                <p className="text-sm text-muted-foreground">
-                  Work with me on your next embedded project and share your experience
-                </p>
-                <Button variant="tech" size="sm" asChild>
-                  <a href="mailto:moslem.ism06@gmail.com">
-                    Start Project Discussion
-                  </a>
-                </Button>
-              </div>
-            </Card>
-          </div>
         </div>
 
         {/* CTA Section */}
@@ -179,8 +119,8 @@ const Contact = () => {
               Ready to Build Something Amazing?
             </h3>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Whether you need firmware development, embedded C++ optimization, or IoT device integration, 
-              I'm here to turn your hardware constraints into innovative solutions.
+              Whether you need data cleaning, exploratory analysis, or baseline machine learning models, 
+              I'm here to help you turn raw data into actionable insights.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
