@@ -44,11 +44,11 @@ const Contact = () => {
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
             Start Your Next{" "}
-            <span className="text-gradient">Data Project</span>
+            <span className="text-gradient">ML Project</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to explore insights from your data? Let's discuss your project requirements
-            and create clean, reproducible solutions together.
+            Ready to apply machine learning to real-world problems? Let’s discuss your project requirements 
+            and build accurate, reproducible models together.
           </p>
         </div>
 
