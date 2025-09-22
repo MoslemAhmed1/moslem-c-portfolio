@@ -33,7 +33,7 @@ const Hero = () => {
               
               <div className="text-2xl lg:text-3xl text-muted-foreground font-medium">
                 Computer Engineering Student ·{" "}
-                <span className="text-tech font-semibold">Data Analyst</span> &{" "}
+                <span className="text-tech font-semibold">Embedded Systems</span> &{" "}
                 <span className="text-cta font-semibold">C++ Developer</span>
               </div>
               
