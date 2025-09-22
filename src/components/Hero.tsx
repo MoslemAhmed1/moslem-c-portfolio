@@ -33,14 +33,11 @@ const Hero = () => {
               
               <div className="text-2xl lg:text-3xl text-muted-foreground font-medium">
                 Computer Engineering Student ·{" "}
-                <span className="text-tech font-semibold">Embedded Systems</span> &{" "}
-                <span className="text-cta font-semibold">C++ Developer</span>
+                <span className="text-tech font-semibold">Data Analyst</span> &{" "}
+                <span className="text-cta font-semibold">Machine Learning Enthusiast</span>
               </div>
               
-              <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-                Efficient firmware & low-level systems for resource-constrained devices.
-                Turning hardware constraints into dependable products.
-              </p>
+              <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">Turning data into clear, actionable insights, reproducible notebooks, practical models, and crisp visualizations.</p>
             </div>
 
             {/* Contact Info */}
