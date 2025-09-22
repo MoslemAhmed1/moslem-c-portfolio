@@ -150,12 +150,16 @@ const Skills = () => {
                 <Heart className="w-6 h-6 text-cta" />
                 <h3 className="text-2xl font-semibold text-primary">Soft Skills</h3>
               </div>
-              
-              <div className="space-y-4">
-                {softSkills.map((skill, index) => <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-secondary/50 hover:bg-secondary transition-smooth">
-                    <div className="w-2 h-2 bg-cta rounded-full"></div>
-                    <span className="text-primary font-medium">{skill}</span>
-                  </div>)}
+
+              <div className="flex flex-wrap gap-2">
+                {softSkills.map((skill, index) => (
+                  <Badge
+                    key={index}
+                    className="px-4 py-2 rounded-full bg-cta/10 text-cta border border-cta/20 text-sm"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
               </div>
 
               <div className="mt-8 p-6 bg-gradient-to-r from-tech/10 to-cta/10 rounded-xl border border-tech/20">
