@@ -48,16 +48,16 @@ const Skills = () => {
   const softSkills = ["Teamwork", "Adaptability", "Time Management", "Communication", "Problem Solving"];
   const valuePropositions = [{
     icon: Target,
-    title: "Optimized Performance",
-    description: "Memory-efficient code that maximizes CPU utilization for smooth real-time operations"
+    title: "Accurate Models",
+    description: "Building and evaluating ML models with clear validation metrics to achieve reliable results"
   }, {
     icon: Code,
-    title: "Clean Architecture",
-    description: "Maintainable, well-documented code following embedded systems best practices"
+    title: "Reproducible Workflows",
+    description: "Well-structured, documented Jupyter notebooks and pipelines for transparent and shareable analysis"
   }, {
     icon: Wrench,
-    title: "Hardware Integration",
-    description: "Seamless firmware development from concept to production-ready embedded systems"
+    title: "Data Insights",
+    description: "Transforming complex datasets into clear visualizations and actionable insights"
   }];
   const getSkillColor = (category: string) => {
     switch (category) {
