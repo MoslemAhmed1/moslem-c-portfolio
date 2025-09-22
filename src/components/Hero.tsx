@@ -3,10 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { Mail, Phone, Linkedin, Github, ExternalLink } from "lucide-react";
 import heroImage from "@/assets/hero-embedded.jpg";
 import profileImage from "@/assets/profile-placeholder.jpg";
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-tech/10">
+  return <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-tech/10">
       {/* Background Tech Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-96 h-96 rounded-full bg-tech blur-3xl animate-pulse-glow"></div>
@@ -15,11 +13,7 @@ const Hero = () => {
       
       {/* Hero Image Background */}
       <div className="absolute inset-0">
-        <img 
-          src={heroImage} 
-          alt="Embedded Systems Development" 
-          className="w-full h-full object-cover opacity-20"
-        />
+        <img src={heroImage} alt="Embedded Systems Development" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/50"></div>
       </div>
 
@@ -39,7 +33,7 @@ const Hero = () => {
               
               <div className="text-2xl lg:text-3xl text-muted-foreground font-medium">
                 Computer Engineering Student ·{" "}
-                <span className="text-tech font-semibold">Embedded Systems</span> &{" "}
+                <span className="text-tech font-semibold">Data Analyst</span> &{" "}
                 <span className="text-cta font-semibold">C++ Developer</span>
               </div>
               
@@ -63,23 +57,14 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                variant="hero" 
-                size="lg"
-                asChild
-                className="group"
-              >
+              <Button variant="hero" size="lg" asChild className="group">
                 <a href="mailto:moslem.ism06@gmail.com">
                   Work with me
                   <ExternalLink className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
               
-              <Button 
-                variant="tech" 
-                size="lg"
-                asChild
-              >
+              <Button variant="tech" size="lg" asChild>
                 <a href="#projects">
                   View Projects
                 </a>
@@ -111,16 +96,14 @@ const Hero = () => {
             <div className="relative max-w-md mx-auto lg:max-w-lg">
               {/* Floating Elements */}
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-tech/20 rounded-2xl animate-float"></div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-cta/20 rounded-2xl animate-float" style={{animationDelay: '2s'}}></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-cta/20 rounded-2xl animate-float" style={{
+              animationDelay: '2s'
+            }}></div>
               
               {/* Main Profile Container */}
               <div className="relative bg-card rounded-3xl p-8 shadow-elevated border border-tech/10">
                 <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-tech/20 to-cta/20 p-1">
-                  <img 
-                    src={profileImage}
-                    alt="Moslem Ahmed - Embedded Systems Developer"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
+                  <img src={profileImage} alt="Moslem Ahmed - Embedded Systems Developer" className="w-full h-full object-cover rounded-2xl" />
                 </div>
                 
                 {/* Floating Badge */}
@@ -134,8 +117,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
