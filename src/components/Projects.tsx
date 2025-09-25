@@ -10,20 +10,20 @@ import cyberImage from "@/assets/project-kdd.jpeg";
 const Projects = () => {
   const projects = [
     {
-      title: "GameBoy Console",
-      subtitle: "STM32 Microcontroller, ARM Assembly, TFT Screen",
-      period: "Apr. 2025 – May. 2025",
-      description: "Built a fully functional GameBoy using STM32 microcontroller, 3.5-inch TFT screen and pure ARM Assembly.",
+      title: "NSL-KDD Intrusion Detection",
+      subtitle: "Python, Pandas, Scikit-learn",
+      period: "2025",
+      description: "Applied machine learning techniques on the NSL-KDD dataset to classify network traffic with high accuracy.",
       highlights: [
-        "Developed games including XO, Pong, Whack-A-Mole, and 2D Swords Fighting with dynamic menu system",
-        "Implemented custom interrupt handlers to manage user input controls and game rendering",
-        "Optimized memory usage and processing efficiency for smooth gameplay on embedded hardware"
+        "Performed data cleaning, feature engineering, and preprocessing on the NSL-KDD dataset",
+        "Trained and evaluated multiple ML models with cross-validation and hyperparameter tuning",
+        "Achieved a classification performance score of 99.91% on the dataset"
       ],
-      technologies: ["STM32", "ARM Assembly", "TFT Display", "Embedded C", "Real-time Systems"],
-      image: gameboyImage,
-      icon: Bot,
-      gradient: "from-tech to-cta",
-      github: "https://github.com/MoslemAhmed1" // Using the CV GitHub link
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "EDA", "ML Models"],
+      image: cyberImage,
+      icon: Zap,
+      gradient: "from-tech to-primary",
+      github: "https://github.com/MoslemAhmed1/KDDIntrusionDetection"
     },
     {
       title: "Pathfinding Visualizer",
@@ -39,7 +39,23 @@ const Projects = () => {
       image: pathfindingImage,
       icon: Code,
       gradient: "from-cta to-tech",
-      github: "https://github.com/MoslemAhmed1"
+      github: "https://github.com/MoslemAhmed1/PathFindingVisualizer"
+    },
+    {
+      title: "GameBoy Console",
+      subtitle: "STM32 Microcontroller, ARM Assembly, TFT Screen",
+      period: "Apr. 2025 – May. 2025",
+      description: "Built a fully functional GameBoy using STM32 microcontroller, 3.5-inch TFT screen and pure ARM Assembly.",
+      highlights: [
+        "Developed games including XO, Pong, Whack-A-Mole, and 2D Swords Fighting with dynamic menu system",
+        "Implemented custom interrupt handlers to manage user input controls and game rendering",
+        "Optimized memory usage and processing efficiency for smooth gameplay on embedded hardware"
+      ],
+      technologies: ["STM32", "ARM Assembly", "TFT Display", "Embedded C", "Real-time Systems"],
+      image: gameboyImage,
+      icon: Bot,
+      gradient: "from-tech to-cta",
+      github: "https://github.com/MoslemAhmed1/GameBoi"
     },
     {
       title: "Lane Driving Vehicle",
@@ -55,24 +71,8 @@ const Projects = () => {
       image: vehicleImage,
       icon: Cpu,
       gradient: "from-primary to-tech",
-      github: "https://github.com/MoslemAhmed1"
-    },
-    {
-      title: "NSL-KDD Intrusion Detection",
-      subtitle: "Python, Pandas, Scikit-learn",
-      period: "2025",
-      description: "Applied machine learning techniques on the NSL-KDD dataset to classify network traffic with high accuracy.",
-      highlights: [
-        "Performed data cleaning, feature engineering, and preprocessing on the NSL-KDD dataset",
-        "Trained and evaluated multiple ML models with cross-validation and hyperparameter tuning",
-        "Achieved a classification performance score of 99.91% on the dataset"
-      ],
-      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "EDA", "ML Models"],
-      image: cyberImage,
-      icon: Zap,
-      gradient: "from-tech to-primary",
-      github: "https://github.com/MoslemAhmed1"   // Replace with the specific repo/notebook link if available
-}
+      github: "https://github.com/MoslemAhmed1/CUERT-Lane-Follower"
+    }
   ];
 
   const otherProjects = [
