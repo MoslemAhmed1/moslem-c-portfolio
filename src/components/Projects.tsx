@@ -185,10 +185,6 @@ const Projects = () => {
                           View Code
                         </a>
                       </Button>
-                      <Button variant="ghost" className="text-muted-foreground hover:text-primary">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Case Study
-                      </Button>
                     </div>
                   </div>
                 </div>
