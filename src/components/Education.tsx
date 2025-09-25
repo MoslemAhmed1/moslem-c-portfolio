@@ -33,21 +33,21 @@ const Education = () => {
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <BookOpen className="w-5 h-5 text-tech" />
-                    <span className="text-lg font-semibold text-secondary">
+                    <span className="text-lg font-semibold text-muted-foreground">
                       Bachelor of Engineering, Computer Engineering
                     </span>
                   </div>
                   
                   <div className="flex items-center gap-2">
                     <Calendar className="w-5 h-5 text-tech" />
-                    <span className="text-secondary">
+                    <span className="text-muted-foreground">
                       Oct 2023 – July 2028 (Expected)
                     </span>
                   </div>
                   
                   <div className="flex items-center gap-2">
                     <GraduationCap className="w-5 h-5 text-tech" />
-                    <span className="text-secondary">
+                    <span className="text-muted-foreground">
                       Current CGPA: <span className="font-semibold text-tech">3.76/4.0</span>
                     </span>
                   </div>
@@ -57,7 +57,7 @@ const Education = () => {
               <div className="lg:w-1/3">
                 <div className="text-center p-6 bg-gradient-to-br from-tech/10 to-cta/10 rounded-xl border border-tech/20">
                   <div className="text-3xl font-bold text-tech mb-2">3.76</div>
-                  <div className="text-sm text-secondary">Current CGPA</div>
+                  <div className="text-sm text-primary">Current CGPA</div>
                 </div>
               </div>
             </div>
